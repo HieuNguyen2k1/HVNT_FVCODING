@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+/* ------------phần đầu-------------------*/
+.dau{
+    padding-top: 2%;
+}
+.dau a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+
+    
+}
+
+.right {
+    margin-left: 30%;
+
+}
+
+/*--------------------------------------------------------*/
+
+.mot {
+    background-image: url("images/lodging.png");
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 300px;
+    padding-left: 5%;
+    color: white;
+    font-size: 20px;
+
+}
+
+/*----------------------------------------------------------*/
+
+.haii {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.hai {
+    /*display: flex;
+    justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+
+#mott {
+    background-color: #efefef;
+
+}
+
+/*----------------------------------------------------------*/
+
+.ba {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ba div {
+    padding-right: 5%;
+
+}
+
+.ba a {
+    text-decoration: none;
+    color: blue;
+}
+
+
